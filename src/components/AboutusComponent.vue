@@ -12,19 +12,23 @@
 
                     <v-list>
                         <v-list-item>
-                            <v-icon color="success">mdi-check-all</v-icon>
+                            <v-icon color="success" class="mr-3">mdi-check-all</v-icon>
                             <v-list-item-subtitle>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iure dolorum ex aspernatur iusto consequatur.</v-list-item-subtitle>
                         </v-list-item>
 
                         <v-list-item>
-                            <v-icon color="success">mdi-check-all</v-icon>
+                            <v-icon color="success" class="mr-3">mdi-check-all</v-icon>
                             <v-list-item-subtitle>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iure dolorum ex aspernatur iusto consequatur.</v-list-item-subtitle>
                         </v-list-item>
 
                         <v-list-item>
-                            <v-icon color="success">mdi-check-all</v-icon>
+                            <v-icon color="success" class="mr-3">mdi-check-all</v-icon>
                             <v-list-item-subtitle>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor iure dolorum ex aspernatur iusto consequatur.</v-list-item-subtitle>
                         </v-list-item>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Omnis optio illo ipsum asperiores placeat sed, magnam harum aliquid delectus fugit quam! Tempore, temporibus laudantium? 
+                            Hic officiis totam quas quidem debitis.</p>
 
                     </v-list>
             </v-col>
