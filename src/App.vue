@@ -1,18 +1,27 @@
 <template>
-  
   <v-app>
-     
+     <Header />
     <v-main>
-      
+
+      <!-- hero section -->
+      <hero-component />
+
+      <!-- about us -->
+      <AboutusComponent />
     </v-main>
   </v-app>
 </template>
 
 <script>
 
+import Header from "./components/Header.vue";
+import HeroComponent from '@/components/HeroComponent';
+import AboutusComponent from "./components/AboutusComponent.vue";
+
+
 export default {
   name: 'App',
-
+  components: { HeroComponent, Header, AboutusComponent },
   data(){
     return {
       menus:[
@@ -25,6 +34,5 @@ export default {
       ]
     }
   }
-
 };
 </script>
