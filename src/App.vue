@@ -18,6 +18,9 @@
       <!-- gallery -->
       <GalleryComponent />
 
+      <!-- contactus -->
+      <ContactFormComponent />
+
     </v-main>
   </v-app>
 </template>
@@ -30,11 +33,12 @@ import AboutusComponent from "./components/AboutusComponent.vue";
 import PortfolioComponentVue from "./components/PortfolioComponent.vue";
 import ProjectComponent from "./components/ProjectComponent.vue";
 import GalleryComponent from "./components/GalleryComponent.vue";
+import ContactFormComponent from "./components/ContactFormComponent.vue";
 
 
 export default {
   name: 'App',
-  components: { HeroComponent, Header, AboutusComponent, PortfolioComponentVue, ProjectComponent, GalleryComponent},
+  components: { HeroComponent, Header, AboutusComponent, PortfolioComponentVue, ProjectComponent, GalleryComponent, ContactFormComponent},
   data(){
     return {
       menus:[
