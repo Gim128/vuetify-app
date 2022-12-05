@@ -1,11 +1,11 @@
 <template>
-    <v-container>
+    <v-container >
         <v-row>
             <v-col lg="6">
                 <img src="" alt="">
             </v-col>
 
-            <v-col>
+            <v-col lg="6">
                 <v-subheader class="text-h4">About us</v-subheader>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum molestiae veritatis facere illum aliquam. 
                     Nesciunt consectetur reprehenderit modi accusantium, numquam similique mollitia fuga neque iure commodi expedita qui voluptate?</p>

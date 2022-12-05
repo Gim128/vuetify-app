@@ -8,6 +8,9 @@
 
       <!-- about us -->
       <AboutusComponent />
+
+      <!-- portfolio -->
+      <PortfolioComponentVue />
     </v-main>
   </v-app>
 </template>
@@ -17,11 +20,12 @@
 import Header from "./components/Header.vue";
 import HeroComponent from '@/components/HeroComponent';
 import AboutusComponent from "./components/AboutusComponent.vue";
+import PortfolioComponentVue from "./components/PortfolioComponent.vue";
 
 
 export default {
   name: 'App',
-  components: { HeroComponent, Header, AboutusComponent },
+  components: { HeroComponent, Header, AboutusComponent, PortfolioComponentVue },
   data(){
     return {
       menus:[

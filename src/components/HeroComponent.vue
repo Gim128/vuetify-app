@@ -11,7 +11,7 @@
             </v-col>
                 
             <v-col lg="6">
-                <img width="100%" src="" alt="hero-image">
+                <img width="100%" src="https://img.freepik.com/free-vector/happy-freelancer-with-computer-home-young-man-sitting-armchair-using-laptop-chatting-online-smiling-vector-illustration-distance-work-online-learning-freelance_74855-8401.jpg?w=1060&t=st=1670214908~exp=1670215508~hmac=01237830d29b77bebed88ae57536e393e906ffd7584496fc787657ca48c373e1" alt="hero-image">
             </v-col>
         </v-row>
     </v-container>
