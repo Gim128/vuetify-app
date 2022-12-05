@@ -19,7 +19,10 @@
       <GalleryComponent />
 
       <!-- contactus -->
-      <ContactFormComponent />
+      <ContactFormComponentVue />
+
+      <!-- footer -->
+      <FooterComponent />
 
     </v-main>
   </v-app>
@@ -33,12 +36,13 @@ import AboutusComponent from "./components/AboutusComponent.vue";
 import PortfolioComponentVue from "./components/PortfolioComponent.vue";
 import ProjectComponent from "./components/ProjectComponent.vue";
 import GalleryComponent from "./components/GalleryComponent.vue";
-import ContactFormComponent from "./components/ContactFormComponent.vue";
+import ContactFormComponentVue from "./components/ContactFormComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 
 
 export default {
   name: 'App',
-  components: { HeroComponent, Header, AboutusComponent, PortfolioComponentVue, ProjectComponent, GalleryComponent, ContactFormComponent},
+  components: { HeroComponent, Header, AboutusComponent, PortfolioComponentVue, ProjectComponent, GalleryComponent, ContactFormComponentVue, FooterComponent},
   data(){
     return {
       menus:[
