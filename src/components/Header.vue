@@ -12,7 +12,7 @@
     >
 
     <v-toolbar-title>
-      Vuetify
+      LeoLabs
     </v-toolbar-title>
 
     <v-spacer />
@@ -56,5 +56,11 @@ export default {
 </script>
 
 <style scoped>
-
+.v-toolbar__title {
+  font-family: Arial;
+  font-weight: 700;
+  color: #4caf50;
+  font-size: 32px;
+  line-height: 1.5;
+}
 </style>
